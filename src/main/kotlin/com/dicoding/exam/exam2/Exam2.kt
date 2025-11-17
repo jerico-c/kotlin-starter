@@ -2,10 +2,11 @@ package com.dicoding.exam.exam2
 
 // TODO 1
 fun calculate(valueA: Int, valueB: Int, valueC: Int?): Int {
-    return 0
+    val c = valueC ?: 50
+    return valueA + valueB - c
 }
 
 // TODO 2
 fun result(result: Int): String {
-    return ""
+    return "Result is $result"
 }
